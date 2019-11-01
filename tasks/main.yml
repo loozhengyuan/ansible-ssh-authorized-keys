@@ -1,0 +1,7 @@
+---
+- name: Set authorized keys
+  authorized_key:
+    user: "{{ item.name }}"
+    state: present
+    key: "{{ item.key }}"
+  loop: "{{ users }}"

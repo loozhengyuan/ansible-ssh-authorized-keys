@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  role_name: ssh-authorized-keys
+  author: Loo Zheng Yuan
+  description: Ansible role for ssh-authorized-keys
+  license: license GPLv3
+  min_ansible_version: 2.8
+  github_branch: master
+  galaxy_tags:
+    - ansible
+    - ssh
+    - publickey
+
+dependencies: []
